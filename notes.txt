@@ -1,0 +1,4 @@
+Classpathspring 
+singleton - one shared instance of the bean (all lifecycle methods are invoked)
+prototype - new bean for each container request (new object for each request) 
+	-- destroy lifecycle methods not called by container, client has to take care of that.
